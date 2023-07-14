@@ -74,7 +74,9 @@ def main():
             os.system("apt-get install skipfish -y && apt-get install wpscan -y")
         elif User_choice == 10:
             os.system("wget http://ports.ubuntu.com/pool/universe/h/hydra/hydra-gtk_9.2-1ubuntu1_arm64.deb")
+            os.system("wget http://old-releases.ubuntu.com/ubuntu/pool/universe/h/hydra/hydra_4.1-1_i386.deb")
             os.system("dpkg -i hydra-gtk_9.2-1ubuntu1_arm64.deb")
+            os.system("dpkg -i hydra_4.1-1_i386.deb")
         elif User_choice == 11:
             os.system("sudo add-apt-repository ppa:darklordpaunik8880/darkminttrustytahr")
             os.system("sudo apt-get update -y")
