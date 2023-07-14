@@ -52,7 +52,7 @@ def main():
             os.system('echo "deb http://http.kali.org/kali kali-bleeding-edge main contrib non-free non-free-firmware" | sudo tee /etc/apt/sources.list.d/kali-bleeding-edge.list')
             os.system("cat /etc/apt/sources.list")
             os.system("wget https://archive.kali.org/archive-key.asc -O /etc/apt/trusted.gpg.d/kali-archive-key.asc")
-            os.system("apt-get update")
+            os.system("apt-get upgrade -y")
         elif User_choice == 2:
             os.system("wget http://downloads.metasploit.com/data/releases/metasploit-latest-linux-x64-installer.run")
             os.system("chmod 777 metasploit-latest-linux-x64-installer.run")
