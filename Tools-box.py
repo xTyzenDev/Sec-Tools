@@ -13,7 +13,7 @@ print(""" _____           _            _
   \_/\___/ \___/|_|___/      |_.__/ \___/_/\_\ by xTyzenツ.py
                                                   
                                                   
-  [1]: install Repo kali linux    [5]: JohnTheRipper    [9]: SkipFish and WPScan
+  [1]: install Repo Kali Linux    [5]: JohnTheRipper    [9]: SkipFish and WPScan
                                                         
   [2]: Metasploit                 [6]: BurpSuite        [10]: Hydra
 
