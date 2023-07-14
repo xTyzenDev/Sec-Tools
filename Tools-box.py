@@ -61,13 +61,13 @@ def main():
         elif User_choice == 3:
             os.system("apt-get install nmap -y")
         elif User_choice == 4:
-            os.system("apt-get install Wireshark -y")
+            os.system("apt-get install wireshark -y")
         elif User_choice == 5:
             os.system("apt-get install john -y")
         elif User_choice == 6:
             os.system("apt-get install burpsuite -y")
         elif User_choice == 7:
-            os.system("apt-get install Aircrack-ng -y")
+            os.system("apt-get install aircrack-ng -y")
         elif User_choice == 8:
             os.system("apt-get install nikto -y")
         elif User_choice == 9:
