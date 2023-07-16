@@ -306,10 +306,6 @@ def main():
         else:
             print("Choisi une page valide.")
 
-        except KeyboardInterrupt:
-            print("\nExit (Ctrl+C)")
-
-
 if __name__ == "__main__":
     main()
 
