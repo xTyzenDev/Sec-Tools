@@ -1,8 +1,6 @@
 #Tools-box
 #Created by xTyzenツ.py / Thitou kas ツ 
 
-import os 
-
 os.system("clear")
 
 print(""" _____           _            _               
