@@ -54,9 +54,9 @@ def afficher_derniere_page():
  |_____/ \___|\___|      |_|\___/ \___/|_|___/ by xTyzenツ.py
  
  
-                        [25]: Install all kali tools
+                    [25]: Install all kali tools
  
- 
+                    [#] l'installation risque être long...
                                                                     """)
 
 def installer_choix_page_accueil(outil):
