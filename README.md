@@ -1,5 +1,5 @@
-# Tools-box
-Toolbox is a script created in python that allows you to install cybersecurity tools more quickly on other systems (Ubuntu etc...)
+# Sec-Tools
+Sec-Tools is a script created in python that allows you to install cybersecurity tools more quickly on other systems (Ubuntu etc...)
 
 All in all, the script is still under development. It is possible that I add tools or I create a second page for windows users or to add several scripts
 
