@@ -41,7 +41,7 @@ def afficher_page_secondaire():
 
   [16]: Gobuster                    [20]: Netdiscover      [24]: Beef-XSS                
 
-                                                                
+      <[2]> ou <[3]> selection de pages                                                        
 
                                                                         """)
 
@@ -52,6 +52,8 @@ def afficher_derniere_page():
   \___ \ / _ \/ __|______| |/ _ \ / _ \| / __|
   ____) |  __/ (__       | | (_) | (_) | \__ |
  |_____/ \___|\___|      |_|\___/ \___/|_|___/ by xTyzenツ.py
+ 
+ <[2]> ou <[3]> selection de pages
  
  
                     [25]: Install all kali tools
@@ -290,18 +292,18 @@ def main():
 
     while True:
         afficher_page_accueil()
-        choix = int(input("Choisi une page (1-3): "))
+        choix = int(input("[Choisi une page]==>(1-3): "))
 
         if choix == 1:
-            outil = int(input("Quel outil veut tu installer ? : "))
+            outil = int(input("[Sec-Tools]~#"))
             installer_choix_page_accueil(outil)
         elif choix == 2:
             afficher_page_secondaire()
-            outil = int(input("Quel outil veut tu installer ? : "))
+            outil = int(input("[Sec-Tools]~#"))
             installer_choix_page_secondaire(outil)
         elif choix == 3:
             afficher_derniere_page()
-            outil = int(input("Quel outil veut tu installer ? : "))
+            outil = int(input("[Sec-Tools]~#"))
             installer_choix_derniere_page(outil)
         else:
             print("Choisi une page valide.")
