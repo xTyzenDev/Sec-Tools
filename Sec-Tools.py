@@ -295,15 +295,15 @@ def main():
         choix = int(input("[Choisi une page]==>(1-3): "))
 
         if choix == 1:
-            outil = int(input("[Sec-Tools]~#"))
+            outil = int(input("[Sec-Tools]~# "))
             installer_choix_page_accueil(outil)
         elif choix == 2:
             afficher_page_secondaire()
-            outil = int(input("[Sec-Tools]~#"))
+            outil = int(input("[Sec-Tools]~# "))
             installer_choix_page_secondaire(outil)
         elif choix == 3:
             afficher_derniere_page()
-            outil = int(input("[Sec-Tools]~#"))
+            outil = int(input("[Sec-Tools]~# "))
             installer_choix_derniere_page(outil)
         else:
             print("Choisi une page valide.")
